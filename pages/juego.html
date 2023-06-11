@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>PLay Game</title>
+    <link rel="stylesheet" href="../css/juego.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Pacifico&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;1,100&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Pacifico&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;1,100&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<div class="grilla">
+  
+  <div class="nav">
+    <a href="../pages/juegoinicio.html" class="logo nav-link">Inicio</a>
+    <ul class="nav-menu">
+      <li class="nav-menu-item"><a href="../pages/juego.html" class="nav-menu-link nav-link">Jugar</a></li>
+      <li class="nav-menu-item"><a href="../pages/instrucciones.html" class="nav-menu-link nav-link">Instrucciones</a></li>
+      <li class="nav-menu-item"><a href="../pages/inspiracion.html" class="nav-menu-link nav-link">Inspiración</a></li>
+    </ul>
+  </div>
+
+
+  <form class="botones" id="frmEnviar">
+  
+        <div>
+          <label for="uname">Ingrese palabra o frase: </label>
+          <input type="text" id="txtpalabra" >
+        </div>
+        <div>
+          <button type="submit" class="botonenviar" id="botonenviar">Enviar</button>
+        </div>
+   
+  
+    <div>
+      <button class="botonmostrar" id="botonmostrar">Ver mi poema!</button>
+      <audio controls autoplay>
+        <source src="../media/musicasurrealismo.mp3" type="audio/mpeg">
+      
+      </audio>
+    </div>
+  </form>
+  <div class="poema" id="poema"></div>
+  <div class="footer">
+    <footer>
+      <span><a id="Contacto"></a>gab.bergstein@gmail.com</span>
+      <span>@copyright2023</span>
+    </footer>
+  </div>
+</div>
+
+</body>
+
+
+<script src = "../scripts/juego.js"></script>
+</html>

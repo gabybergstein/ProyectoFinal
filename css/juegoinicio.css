@@ -1,0 +1,144 @@
+
+
+img {
+    display: block;
+    width: 300 px;
+    height: 50;
+    margin-bottom: 100;
+
+}
+
+p {
+    display:block;
+    flex-direction: row;
+    margin: 20px;
+    padding: 70px;
+    margin-bottom: 20;
+}
+
+.video {
+    margin-bottom: 20;
+    display : block;
+    flex-direction: row;
+}
+
+.body{
+    background-color:antiquewhite;
+    font-family:sans-serif;
+    padding: 100px 20px 0px;
+    display: flex;
+    flex-direction: column;
+min-height: 100%;
+
+}
+body{
+    background-color: antiquewhite;
+    
+}
+
+.header{
+    background-color: rgb(215, 159, 215);
+    height: 80px;
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+
+}
+
+.logo {
+    font:30px;
+    font-weight: bold;
+    padding: 0 40 px;
+    line-height:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px
+
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px ;
+    line-height: 80px;
+    width:max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-menu-link:hover {
+    background-color: rgb(162, 149, 157);
+    transition: 0.5s;
+}
+
+.contenedor {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    max-width: 992px;
+   
+}
+.subcontenedor {
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+ 
+
+}
+
+.video{
+    margin-left: 50px;
+}
+
+footer {
+
+    margin-top: auto;
+        background-color: #130202da;
+        text-align:justify;
+        border-top: 1px solid rgba(50, 50, 50, 0.3);
+        width: 100%;
+        position: absolute;
+        justify-content: space-between;
+        bottom: 50; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: azure;
+        display: flex
+      }
+      span{
+        margin-left: 15px;
+        margin-right: 100px;
+      }
+     
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: olive;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+          color: white;
+        }
+      }
+      
+    

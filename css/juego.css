@@ -1,0 +1,150 @@
+
+
+.grilla {
+
+background-color: antiquewhite;
+  display: grid;
+  grid-template-areas:
+    "nav nav"
+    "botones poema"
+    "footer footer";
+  grid-template-rows: 80px 20fr 1fr; 
+  grid-template-columns: 1fr 2fr;
+  font-family: 'Kablammo', cursive;
+  
+}
+
+
+.nav{
+  background-color: rgb(228, 236, 83);
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  max-width: auto;
+  
+
+}
+
+.nav-link {
+  color:white;
+  text-decoration: none;
+
+}
+
+.logo {
+  font:30px;
+  font-weight: bold;
+  padding: 0 40 px;
+  line-height:80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+.nav-menu {
+  display: flex;
+  margin-right: 40px
+
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px ;
+  line-height: 80px;
+  width:max-content;
+}
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 3px;
+
+}
+.nav-menu-link:hover {
+  background-color: rgb(162, 149, 157);
+  transition: 0.5s;
+}
+
+.botones{
+  font-size:medium;
+
+ margin-top: 40px;
+ margin-left: 100px;
+  grid-area: botones;
+  
+}
+.poema{
+  font-family: 'Pacifico', cursive;
+  grid-area: poema;
+ margin-left: 150px;
+
+  
+}
+.footer{
+ 
+  grid-area: footer;
+  margin-top: auto;
+  background-color: #130202da;
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  width: 100%;
+  justify-content: space-between;
+  bottom: 50; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: azure;
+ 
+}
+
+span{
+  margin-left: 15px;
+  margin-right: 100px;
+}
+.border {
+  border: 1px solid black;
+}
+
+
+  p.jugador1 {
+    color: blue;
+  }
+  
+  p.jugador2{
+    color:coral
+  } 
+
+  button.botonenviar {
+    height: 20px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: rgb(43, 226, 214);
+    font-family:Arial, Helvetica, sans-serif
+   
+    
+    
+
+  }
+  button:hover{
+    color:#7c7c94
+ }
+
+
+  button.botonmostrar{
+    
+   height: 100px;
+   width: 100px;
+   border-radius: 100px;
+    margin-left: 100px;
+    background-color: rgb(209, 132, 147);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+   
+
+  }
+
+  div {
+    margin-bottom: 10px;
+    position: relative;
+    color:rgb(14, 1, 18);
+    
+  }
+  audio{
+    margin:40px;
+  }
+
+ 

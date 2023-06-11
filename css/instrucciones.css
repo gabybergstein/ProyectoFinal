@@ -1,0 +1,63 @@
+.header{
+    background-color: rgb(235, 46, 128);
+    height: 80px;
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+   
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+
+}
+
+.logo {
+    margin-left: 20px;
+    font:30px;
+    font-weight: bold;
+    padding: 0 40 px;
+    line-height:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px
+
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px ;
+    line-height: 80px;
+    width:max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-menu-link:hover {
+    background-color: rgb(162, 149, 157);
+    transition: 0.5s;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    background-color: antiquewhite;
+    font-size: large;
+
+
+p{
+    margin: 100px;
+}
