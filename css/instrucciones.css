@@ -1,13 +1,10 @@
 .header{
     background-color: rgb(235, 46, 128);
     height: 80px;
-    position:fixed;
     width:100%;
-    top: 0;
-    left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    display: block;
 }
-
 .nav{
     display: flex;
     justify-content: space-between;
@@ -52,11 +49,11 @@
 }
 
 body{
-    margin: auto;
-    display: flex;
+     margin: auto;
+    
     background-color: antiquewhite;
-    font-size: large;
-
+    font-size: large; 
+}
 
 p{
     margin: 100px;
