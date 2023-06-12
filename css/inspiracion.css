@@ -9,6 +9,7 @@
 }
 body{
     background-color: antiquewhite;
+    margin: 20px;
 }
 
 .nav{
@@ -52,7 +53,4 @@ body{
 .nav-menu-link:hover {
     background-color: rgb(162, 149, 157);
     transition: 0.5s;
-}
-.spinetta {
-    display: block;
 }
