@@ -50,11 +50,12 @@
 
 body{
      margin: auto;
-    
     background-color: antiquewhite;
     font-size: large; 
 }
 
-p{
+.texto{
+    border-style: groove;
     margin: 100px;
+    padding: 20px;
 }
